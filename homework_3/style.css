@@ -1,0 +1,46 @@
+table {
+    border: 1px solid black;
+    width: 40px;
+    border-spacing: 10px;
+    empty-cells: hide;
+    border-collapse: separate;
+ }
+   .notmet {
+     background-color:#FF1493
+   }
+   .aktin {
+      background-color: aliceblue;
+   }
+
+   .lantin {
+      background-color: aliceblue;
+   }
+
+   .unknown {
+      background-color: #00BFFF;
+   }
+
+   .met {
+      background-color: #FFFF00;
+   }
+ th {
+    border: 1px solid black;
+    width: 10%;
+ }
+ th, td {
+    padding: 1px 1px;
+ }
+ td:first-child {
+    width: 30%;
+ }
+ td {
+    border: 1px solid black;
+       
+ }
+ th, td {
+    border: 1px solid black;
+ }
+ td {
+    border-bottom: 1px solid black;
+    
+ }
