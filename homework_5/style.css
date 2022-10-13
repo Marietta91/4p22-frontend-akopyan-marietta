@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+ body {
+    margin: 0;
+ }
+
+ .content {
+    position: relative;
+    left: 220px;
+
+
+ }
+header {
+    position: relative;
+    height: 89px;
+	width: 1440px;
+	background: #590BFF;
+	height: 100px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 250%;
+    
+}
+
+.saidbar__wrapper {
+    border-right: 2px solid #C4C4C4;
+}
+
+.saidbar a {
+    color: orange
+}
+
+
+.title {
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.footer {
+    height: 200px;
+    width: 1440px;
+    background: #590BFF;
+}
+
+.book__title {
+    background: #590BFF;
+    color: white;
+    Width: 1080px;
+    Height: 41px;
+    padding: 4px 0 0 13px;
+}
+
