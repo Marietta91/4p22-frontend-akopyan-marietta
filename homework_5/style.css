@@ -13,7 +13,7 @@
 
  }
 header {
-    position: relative;
+    
     height: 89px;
 	width: 1440px;
 	background: #590BFF;
@@ -25,11 +25,16 @@ header {
 }
 
 .saidbar__wrapper {
+    position: fixed;
     border-right: 2px solid #C4C4C4;
+    width: 200px;
+    
 }
 
 .saidbar a {
-    color: orange
+    color: orange;
+    position: fixed;
+
 }
 
 
