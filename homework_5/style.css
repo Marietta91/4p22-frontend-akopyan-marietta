@@ -3,17 +3,19 @@
 }
 
  body {
+    position: absolute;
     margin: 0;
  }
 
  .content {
     position: relative;
+    top: 120px;
     left: 220px;
 
 
  }
 header {
-    
+    position: fixed;
     height: 89px;
 	width: 1440px;
 	background: #590BFF;
@@ -21,14 +23,14 @@ header {
     color: white;
     font-family: 'Times New Roman', Times, serif;
     font-size: 250%;
-    
+    z-index: 100;
 }
 
 .saidbar__wrapper {
     position: fixed;
     border-right: 2px solid #C4C4C4;
     width: 200px;
-    
+    top: 120px;
 }
 
 .saidbar a {
@@ -44,17 +46,24 @@ header {
 
 }
 
-.footer {
-    height: 200px;
-    width: 1440px;
-    background: #590BFF;
-}
+
 
 .book__title {
+    position: sticky;
+    top: 120px;
     background: #590BFF;
     color: white;
     Width: 1080px;
     Height: 41px;
     padding: 4px 0 0 13px;
 }
+
+
+
+.saidbar__wrapper {
+    position: fixed;
+   
+}
+
+
 
