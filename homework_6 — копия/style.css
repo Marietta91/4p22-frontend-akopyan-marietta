@@ -3,27 +3,19 @@
 }
 
  body {
-    position: absolute;
     margin: 0;
-    height: 100%;
     width: 100%;
-    min-width: 720px;
-    max-width: 2560px;
-    
  }
-
-
 
  .content {
     position: relative;
     top: 120px;
     left: 220px;
-
-
  }
+
 header {
     position: fixed;
-    height: 89px;
+    height: 10%;
 	width: 100%;
 	background: #590BFF;
     color: white;
@@ -35,14 +27,13 @@ header {
 .saidbar__wrapper {
     position: fixed;
     border-right: 2px solid #C4C4C4;
-    width: 13%;
+    width: 200px;
     top: 120px;
 }
 
 .saidbar a {
     color: orange;
     position: fixed;
-
 
 }
 
@@ -57,16 +48,17 @@ header {
 
 .book__title {
     position: sticky;
-    top: 105px;
+    top: 120px;
     background: #590BFF;
     color: white;
+    Width: 60%;
     Height: 41px;
     padding: 4px 0 0 13px;
 }
 
 
 
- 
+
 
 
 
